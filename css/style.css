@@ -5,6 +5,7 @@
   left: 0px;
   top: 0px;
 }
+
 .main{
   position: absolute;
   width: 100%;
@@ -14,13 +15,188 @@
   background: #F7F7F7;
   border-radius: 0px;
 }
+
+/* メインバー */
 .mainber{
   position: absolute;
   width: calc(100% - 420px);
   background: #FFFFFF;
   top: 148px;
-  height: 577px;
+  /* height: 577px; ここ最後編集＠*/
 }
+
+.blog .mainber .date{
+  height: 26px;
+  width: 215px;
+  margin: 60px auto 0px;
+  font-size: 12px;
+  color: #7B7B7B;
+}
+
+.blog .mainber h1{
+  height: 150px;
+  width: 690px;
+  margin: 9px auto 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #7B7B7B;
+  text-align: center;
+  line-height: 50px;
+}
+
+.blog .mainber hr{
+  height: 1px;
+  width: 709px;
+  margin: 22px auto ;
+}
+
+.blog .mainber p{
+  width: 675px;
+  margin: 0px auto 35px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #222222;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.75px;
+  
+}
+
+.blog .mainber h2{
+  width: 675px;
+  margin: 0px auto 35px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: #222222;
+  padding: 0px 15px;
+  border-left: solid 5px #222222;
+}
+
+.blog .picture {
+  height: 420px;
+  width: 750px;
+  margin: 0px auto 55px;
+}
+
+/* 
+.share{
+  margin: 45px auto 20px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #222222;
+}
+
+.sns-icon{
+  width: 265px;
+  margin: 0px auto 23px;
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+
+.sns-icon a {
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #fff;
+  }
+
+.sns-icon i {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.sns-icon .fa-twitter{
+  background: #1DA1F2;
+}
+
+.sns-icon .fa-hatena{
+  background: #01A4DE;
+  margin-left: 35px;
+}
+
+.fa-hatena:before {
+	content: "B!";
+	font-family: Verdana;
+	font-weight: bold
+}
+
+.sns-icon .fa-line{
+  background-color: #00B900;
+  color: #00B900;
+  margin-left: 35px;
+}
+.fa-line:before {
+  background-color:#FFFFFF;
+}
+
+.sns-icon .fa-facebook{
+  background: #1877F2;
+  margin-left: 35px;
+}
+
+.fa-facebook:before {
+  background-color: #1877F2;
+  color: fff;
+  border-radius: 50%;
+} */
+
+
+
+/* 写真 */
+.pic1{
+  background-image: url(image1.png);
+}
+
+.pic2{
+  background-image: url(image2.png);
+}
+
+.pic3{
+  background-image: url(image3.png);
+}
+
+.pic4{
+  background-image: url(image4.png);
+}
+
+.pic5{
+  background-image: url(image5.png);
+}
+
+.pic6{
+  background-image: url(image6.png);
+}
+
+.pic7{
+  background-image: url(image7.png);
+}
+
+.pic8{
+  background-image: url(image8.png);
+}
+
+
+/* メインバー */
+
+
+
+/* サイドバー */
 .sideber-main{
   position: absolute;
   width: 360px;
@@ -30,13 +206,14 @@
   background: #FFFFFF;
   border-radius: 0px;
 }
+
 .circle{
   position: absolute;
   width: 127px;
   height: 127px;
   left: 116px;
   top: 41px;
-  background-image: url(image1.png);
+  background-image: url(hapirahu_insta_logo.png);
 }
 
 .blog .sideber-main .title{
@@ -51,7 +228,7 @@
 
 .blog .sideber-main hr{
   position: absolute;
-  height: 2px;
+  height: 1px;
   width: 68px;
   left: 146px;
   top: 245px;
@@ -65,7 +242,7 @@
   top: 296px;
   font-size: 12px;
   margin: 0px;
-  
+  color: #7B7B7B;
 }
 
 .sideber-sub {
@@ -80,7 +257,8 @@
   position: absolute;
   width: 330px;
   height: 54px;
-  left: 15px;
+  left: 15px; 
   top: 43px;
   background: #E5E5E5;
 }
+/* サイドバー */
