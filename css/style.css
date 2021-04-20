@@ -84,7 +84,7 @@
   margin: 0px auto 55px;
 }
 
-/* 
+
 .share{
   margin: 45px auto 20px;
   font-family: Noto Sans JP;
@@ -130,33 +130,156 @@
   margin-left: 35px;
 }
 
+.line-list{
+  position: relative;
+}
+
+.icon-line{
+  position: absolute;
+  top: 12px;
+  left: 47px;
+
+
+}
 .fa-hatena:before {
 	content: "B!";
 	font-family: Verdana;
 	font-weight: bold
 }
 
+
 .sns-icon .fa-line{
   background-color: #00B900;
-  color: #00B900;
-  margin-left: 35px;
-}
-.fa-line:before {
-  background-color:#FFFFFF;
-}
-
-.sns-icon .fa-facebook{
-  background: #1877F2;
+  color:#00B900;
   margin-left: 35px;
 }
 
-.fa-facebook:before {
-  background-color: #1877F2;
-  color: fff;
-  border-radius: 50%;
-} */
 
 
+
+
+
+.sns-icon .fa-facebook-f{
+  width: 20px;
+  height: 20px;
+  line-height: 24px;
+  color: #1877F2;
+  border: solid 10px #1877F2;
+  margin-left: 35px;
+}
+
+
+.manager-info{
+  position: relative;
+  margin: 0px auto 56px;
+  height: 171px; 
+  width: 685px;
+  border: 1px solid #808080;
+  box-sizing: border-box; 
+}
+
+.manager-name{
+  margin: 26px auto 0px 21px;
+  width: 88px;
+  height: 32px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+
+}
+
+.manager-details{
+  margin: 0px auto 9px 21px;
+  width: 347px;
+  height: 32px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.manager-text{
+  margin: 0px auto 18px 21px;
+  height: 54px;
+  width: 460px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.75px;
+  color: #222222;
+}
+
+.manager-image{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 527px;
+  top: 26px;
+  background: url(ceo_image.png);
+  border-radius: 0px;
+}
+
+.download-info{
+  margin: 0px auto 41px;
+  width: 751px;
+  height: 333px; 
+  background: #FCECF1;
+  border-radius: 0px;
+}
+
+.download-title{
+  margin: 0px auto 32px;
+  padding-top: 26px;
+  width: 580px;
+  height: 72px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #FF5D8F;
+}
+
+.download-text{
+  margin: 0px auto 32px;
+  width: 551px;
+  height: 72px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.download-button{
+  margin: 0px auto 43px;
+  width: 300px;
+  height: 56px;  
+  background: #FF5D8F;
+  border: 2px solid #FF5D8F;
+  box-sizing: border-box;
+  box-shadow: 2px 6px 12px rgba(255, 93, 143, 0.16);
+  border-radius: 90px;
+  
+  padding-top: 12px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 /* 写真 */
 .pic1{
