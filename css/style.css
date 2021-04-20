@@ -36,11 +36,15 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 27px;
-  color: #000000;
 }
 
 .header-list li{
   margin-left: 28px;
+}
+
+.header-list a{
+  text-decoration: none;
+  color: #000000;
 }
 /* ヘッダー */
 
