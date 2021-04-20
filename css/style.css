@@ -1,0 +1,626 @@
+.wrapper{
+  position: relative;
+  height: calc(76.25px + 7280.09px + 67px );
+}
+
+/* ヘッダー */
+.header{
+  position: absolute;
+  width: 100vw;
+  height: 76.25px;
+  left: 0px;
+  top: 0px;
+}
+
+.corporate-logo{
+  position: absolute;
+  width: 68px;
+  height: 70px;
+  top: 3px;
+  left: 50px;
+  background: url(corporate_logo.png);
+  border-radius: 0px;
+}
+
+.header-list{
+  position: absolute;
+  height: 28px;
+  top: 28px;
+  left: 307px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.header-list li{
+  margin-left: 28px;
+}
+
+.header-list a{
+  text-decoration: none;
+  color: #000000;
+}
+/* ヘッダー */
+
+
+.main{
+  position: absolute;
+  width: 100%;
+  height: 7280.09px;
+  left: 0px;
+  top: 75.91px;
+  background: #F7F7F7;
+  border-radius: 0px;
+}
+
+/* メインバー */
+.mainber{
+  position: absolute;
+  width: calc(100% - 420px);
+  background: #FFFFFF;
+  top: 70px;
+  /* height: 577px; ここ最後編集＠*/
+}
+
+.blog .mainber .date{
+  height: 26px;
+  width: 215px;
+  margin: 60px auto 0px;
+  font-size: 12px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  text-align: center;
+  color: #7B7B7B;
+}
+
+.blog .mainber h1{
+  height: 150px;
+  width: 690px;
+  margin: 9px auto 0px;
+  font-size: 28px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  color: #7B7B7B;
+  text-align: center;
+  line-height: 50px;
+}
+
+.blog .mainber hr{
+  height: 1px;
+  width: 709px;
+  margin: 22px auto ;
+}
+
+.blog .mainber p{
+  width: 675px;
+  margin: 0px auto 35px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #222222;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.75px;
+  
+}
+
+.blog .mainber h2{
+  width: 675px;
+  margin: 0px auto 35px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: #222222;
+  padding: 0px 15px;
+  border-left: solid 5px #222222;
+}
+
+.blog .picture {
+  height: 420px;
+  width: 750px;
+  margin: 0px auto 55px;
+}
+
+
+.share{
+  margin: 45px auto 20px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #222222;
+}
+
+.sns-icon{
+  width: 265px;
+  margin: 0px auto 23px;
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+
+.sns-icon a {
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #fff;
+  }
+
+.sns-icon i {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.sns-icon .fa-twitter{
+  background: #1DA1F2;
+}
+
+.sns-icon .fa-hatena{
+  background: #01A4DE;
+  margin-left: 35px;
+}
+
+.line-list{
+  position: relative;
+}
+
+.icon-line{
+  position: absolute;
+  top: 12px;
+  left: 47px;
+
+
+}
+.fa-hatena:before {
+	content: "B!";
+	font-family: Verdana;
+	font-weight: bold
+}
+
+
+.sns-icon .fa-line{
+  background-color: #00B900;
+  color:#00B900;
+  margin-left: 35px;
+}
+
+
+.sns-icon .fa-facebook-f{
+  width: 20px;
+  height: 20px;
+  line-height: 24px;
+  color: #1877F2;
+  border: solid 10px #1877F2;
+  margin-left: 35px;
+}
+
+
+.manager-info{
+  position: relative;
+  margin: 0px auto 56px;
+  height: 171px; 
+  width: 685px;
+  border: 1px solid #808080;
+  box-sizing: border-box; 
+}
+
+.manager-name{
+  margin: 26px auto 0px 21px;
+  width: 88px;
+  height: 32px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+
+}
+
+.manager-details{
+  margin: 0px auto 9px 21px;
+  width: 347px;
+  height: 32px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.manager-text{
+  margin: 0px auto 18px 21px;
+  height: 54px;
+  width: 460px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.75px;
+  color: #222222;
+}
+
+.manager-image{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 527px;
+  top: 26px;
+  background: url(ceo_image.png);
+  border-radius: 0px;
+}
+
+.download-info{
+  margin: 0px auto 41px;
+  width: 751px;
+  height: 333px; 
+  background: #FCECF1;
+  border-radius: 0px;
+}
+
+.download-title{
+  margin: 0px auto 32px;
+  padding-top: 26px;
+  width: 580px;
+  height: 72px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #FF5D8F;
+}
+
+.download-text{
+  margin: 0px auto 32px;
+  width: 551px;
+  height: 72px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.download-button{
+  margin: 0px auto 43px;
+  width: 300px;
+  height: 56px;  
+  background: #FF5D8F;
+  border: 2px solid #FF5D8F;
+  box-sizing: border-box;
+  box-shadow: 2px 6px 12px rgba(255, 93, 143, 0.16);
+  border-radius: 90px;
+  
+  padding-top: 12px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* 写真 */
+.pic1{
+  background-image: url(image1.png);
+}
+
+.pic2{
+  background-image: url(image2.png);
+}
+
+.pic3{
+  background-image: url(image3.png);
+}
+
+.pic4{
+  background-image: url(image4.png);
+}
+
+.pic5{
+  background-image: url(image5.png);
+}
+
+.pic6{
+  background-image: url(image6.png);
+}
+
+.pic7{
+  background-image: url(image7.png);
+}
+
+.pic8{
+  background-image: url(image8.png);
+}
+
+
+/* メインバー */
+
+
+
+/* サイドバー */
+.sideber-main{
+  position: absolute;
+  width: 360px;
+  height: 577px;
+  right: 30px;
+  top: 70px;
+  background: #FFFFFF;
+  border-radius: 0px;
+}
+
+.circle{
+  position: absolute;
+  width: 127px;
+  height: 127px;
+  left: 116px;
+  top: 41px;
+  background-image: url(hapirahu_insta_logo.png);
+}
+
+.blog .sideber-main .title{
+  position: absolute;
+  height: 40px;
+  width: 228px;
+  left: 66px;
+  top: 192px;
+  font-size: 19px;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+
+}
+
+.blog .sideber-main hr{
+  position: absolute;
+  height: 1px;
+  width: 68px;
+  left: 146px;
+  top: 245px;
+}
+
+.blog .sideber-main p{
+  position: absolute;
+  height: 125px;
+  width: 288px;
+  left: 35px;
+  top: 296px;
+  font-size: 12px;
+  margin: 0px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  color: #7B7B7B;
+}
+
+.sideber-sub {
+  position: absolute;
+  width: 360px;
+  height: 140px;
+  right: 30px;
+  top: calc(148px + 577px + 27px);
+  background: #FFFFFF;
+}
+.sideber-sub .content{
+  position: absolute;
+  width: 330px;
+  height: 54px;
+  left: 15px; 
+  top: 43px;
+  background: #E5E5E5;
+}
+/* サイドバー */
+
+/* フッター */
+.footer{
+  position: absolute;
+  width: 100vw;
+  height: 67px;
+  left: 0px;
+  bottom: 0px;
+  background: #1C1C1C;
+  border-radius: 0px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 17px;
+  box-sizing: border-box; 
+}
+
+/* @media screen and (max-width: 375px) {
+  .header{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .corporate-logo{
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: url(corporate_logo.png);
+    background-size:contain;
+    border-radius: 0px;
+  }
+
+.blog .main hr{
+  height: 1px;
+  width: 400px;
+  margin: 0px ;
+}
+  
+.mainber{
+  position: absolute;
+  width: 100vh;
+  background: #FFFFFF;
+  top: 1px;
+}
+
+.blog .mainber .date{
+  height: 16px;
+  width: 120px;
+  margin: 11px auto 0px;
+  font-size: 12px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  text-align: center;
+  color: #7B7B7B;
+}
+
+.blog .mainber h1{
+  width: 367px;
+  height: 97px;
+  margin: 9px auto 0px;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  color: #7B7B7B;
+  text-align: center;
+  line-height: 36px;
+}
+
+.blog .mainber hr{
+  height: 1px;
+  width: 357px;
+  margin: 8px auto 14px;
+}
+
+.blog .picture {
+  width: 376px;
+  height: 209px;
+  margin: 0px auto 40px;
+  background-size:contain;
+}
+
+.blog .mainber p{
+  width: 344px;
+  margin: 0px auto 25px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #222222;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.75px;
+  
+}
+
+.blog .mainber h2{
+  width: 307px;
+  margin: 0px auto 35px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.525px;
+  color: #222222;
+  padding: 0px 15px;
+  border-left: solid 5px #222222;
+}
+
+.manager-info{
+  position: relative;
+  margin: 0px auto 56px;
+  height: 149px; 
+  width: 375px;
+  border: 1px solid #808080;
+  box-sizing: border-box; 
+}
+
+.manager-name{
+  margin: 9px auto 0px 12px;
+  width: 65px;
+  height: 32px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.manager-details{
+  margin: 0px auto 4px 12px;
+  width: 195px;
+  height: 32px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.manager-text{
+  margin: 0px auto 18px 12px;
+  width: 216px;
+  height: 48px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 18px;
+  letter-spacing: 0.75px;
+  color: #222222;
+}
+
+.manager-image{
+  position: absolute;
+  width: 111px;
+  height: 11px;
+  left: 254px;
+  top: 9px;
+  background: url(ceo_image.png);
+  border-radius: 0px;
+  background-size:contain;
+}
+
+} */
