@@ -1,15 +1,54 @@
+.wrapper{
+  position: relative;
+  height: calc(76.25px + 7280.09px + 67px );
+}
+
+/* ヘッダー */
 .header{
   position: absolute;
-  width: 100vh;
+  width: 100vw;
   height: 76.25px;
   left: 0px;
   top: 0px;
 }
 
+.corporate-logo{
+  position: absolute;
+  width: 68px;
+  height: 70px;
+  top: 3px;
+  left: 50px;
+  background: url(corporate_logo.png);
+  border-radius: 0px;
+}
+
+.header-list{
+  position: absolute;
+  height: 28px;
+  top: 28px;
+  left: 307px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.header-list li{
+  margin-left: 28px;
+}
+/* ヘッダー */
+
+
 .main{
   position: absolute;
   width: 100%;
-  height: 7173.09px;
+  height: 7280.09px;
   left: 0px;
   top: 75.91px;
   background: #F7F7F7;
@@ -30,6 +69,11 @@
   width: 215px;
   margin: 60px auto 0px;
   font-size: 12px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  text-align: center;
   color: #7B7B7B;
 }
 
@@ -38,6 +82,8 @@
   width: 690px;
   margin: 9px auto 0px;
   font-size: 28px;
+  font-family: Helvetica;
+  font-style: normal;
   font-weight: bold;
   color: #7B7B7B;
   text-align: center;
@@ -346,7 +392,13 @@
   left: 66px;
   top: 192px;
   font-size: 19px;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
   color: #333333;
+
 }
 
 .blog .sideber-main hr{
@@ -365,6 +417,10 @@
   top: 296px;
   font-size: 12px;
   margin: 0px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
   color: #7B7B7B;
 }
 
@@ -385,3 +441,24 @@
   background: #E5E5E5;
 }
 /* サイドバー */
+
+/* フッター */
+.footer{
+  position: absolute;
+  width: 100vw;
+  height: 67px;
+  left: 0px;
+  bottom: 0px;
+  background: #1C1C1C;
+  border-radius: 0px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 17px;
+  box-sizing: border-box; 
+}
