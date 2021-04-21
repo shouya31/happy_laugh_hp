@@ -5,7 +5,8 @@
  * @package Sydney
  */
 
-get_header(); ?>
+get_template_part('single', 'header'); ?>
+
 	<?php if (get_theme_mod('fullwidth_single')) { //Check if the post needs to be full width
 		$fullwidth = 'fullwidth';
 	} else {
