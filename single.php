@@ -75,10 +75,10 @@ get_template_part('single', 'header'); ?>
         </div>
         <div class="sideber-sub">
           <div class="content">
-						<form action="<?php echo home_url("/");?>" method="get" class="blog-search">
+						<!-- <form action="<?php echo home_url("/");?>" method="get" class="blog-search">
 							<input type="text" name= "s" value="<?php the_search_query();?>" placeholder="キーワードを入力">
 							<button type="submit" ><i class="fas fa-search fa-lg"></i></button>
-						</form>
+						</form> -->
 					</div>
         </div>
       </div>
