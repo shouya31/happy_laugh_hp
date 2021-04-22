@@ -1,19 +1,16 @@
-.blog{
+/* .blog{
   margin: 0px;
-}
+} */
 
 .wrapper{
   position: relative;
-  height: calc(76.25px + 7280.09px + 67px );
 }
 
 /* ヘッダー */
 .header{
-  position: absolute;
   width: 100vw;
   height: 76.25px;
-  left: 0px;
-  top: 0px;
+  margin-top: 0px;
 }
 
 .corporate-logo{
@@ -26,7 +23,7 @@
   border-radius: 0px;
 }
 
-.header-list{
+.header-list .menu{
   position: absolute;
   height: 28px;
   top: 28px;
@@ -53,26 +50,23 @@
 
 /* ヘッダー */
 
-
 .main{
-  position: absolute;
   width: 100%;
-  height: 7280.09px;
-  left: 0px;
-  top: 75.91px;
   background: #F7F7F7;
   border-radius: 0px;
+  display: flex;
 }
 
 /* メインバー */
 .mainber{
-  position: absolute;
   width: calc(100% - 420px);
   background: #FFFFFF;
-  top: 70px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-bottom: 85px;
 }
 
-.blog .mainber .date{
+.mainber .date{
   height: 26px;
   width: 215px;
   margin: 60px auto 0px;
@@ -85,7 +79,7 @@
   color: #7B7B7B;
 }
 
-.blog .mainber h1{
+.mainber h1{
   height: 150px;
   width: 690px;
   margin: 9px auto 0px;
@@ -98,13 +92,13 @@
   line-height: 50px;
 }
 
-.blog .mainber hr{
-  height: 1px;
-  width: 709px;
+.mainber hr{
+  height: 2px;
+  width: 90%;
   margin: 22px auto ;
 }
 
-.blog .mainber p{
+.mainber p{
   width: 675px;
   margin: 0px auto 35px;
   font-family: Noto Sans JP;
@@ -117,7 +111,7 @@
   
 }
 
-.blog .mainber h2{
+.mainber h2{
   width: 675px;
   margin: 0px auto 35px;
   font-family: Noto Sans JP;
@@ -131,9 +125,25 @@
   border-left: solid 5px #222222;
 }
 
-.blog .picture {
+.mainber h3{
+  width: 675px;
+  margin: 0px auto 15px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 31px;
+  letter-spacing: 0.75px;
+  color: #222222;
+}
+
+.mainber figure{
+text-align: center;
+}
+
+.mainber img{
   height: 420px;
-  width: 750px;
+  width: 675px;
   margin: 0px auto 55px;
 }
 
@@ -163,9 +173,11 @@
   margin: 0 5px 5px 0;
   padding: 0;
   color: #fff;
+  pointer-events: none;
   }
 
-.sns-icon i {
+
+.sns-icon i, .facebook{
   width: 40px;
   height: 40px;
   margin: 0;
@@ -201,20 +213,24 @@
 }
 
 
-.sns-icon .fa-line{
+.sns-icon .fa-circle{
   background-color: #00B900;
   color:#00B900;
   margin-left: 35px;
 }
 
 
-.sns-icon .fa-facebook-f{
-  width: 20px;
-  height: 20px;
-  line-height: 24px;
-  color: #1877F2;
-  border: solid 10px #1877F2;
+.facebook{
+  background-color: #1877F2;
   margin-left: 35px;
+}
+
+.facebook-logo{
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  background-image: url(facebook-logo.png);
+  background-size:contain;
 }
 
 
@@ -277,7 +293,7 @@
 
 .download-info{
   margin: 0px auto 41px;
-  width: 751px;
+  width: 750px;
   height: 333px; 
   background: #FCECF1;
   border-radius: 0px;
@@ -330,51 +346,20 @@
   color: #FFFFFF;
 }
 
-/* 写真 */
-.pic1{
-  background-image: url(image1.png);
-}
-
-.pic2{
-  background-image: url(image2.png);
-}
-
-.pic3{
-  background-image: url(image3.png);
-}
-
-.pic4{
-  background-image: url(image4.png);
-}
-
-.pic5{
-  background-image: url(image5.png);
-}
-
-.pic6{
-  background-image: url(image6.png);
-}
-
-.pic7{
-  background-image: url(image7.png);
-}
-
-.pic8{
-  background-image: url(image8.png);
-}
-/* 写真 */
-
 /* メインバー */
 
 
 
 /* サイドバー */
+.sideber{
+  position: relative;
+  margin-left: 27px;
+  margin-top: 70px;
+  margin-bottom: 85px;
+}
 .sideber-main{
-  position: absolute;
   width: 360px;
   height: 577px;
-  right: 30px;
-  top: 70px;
   background: #FFFFFF;
   border-radius: 0px;
 }
@@ -388,7 +373,7 @@
   background-image: url(hapirahu_insta_logo.png);
 }
 
-.blog .sideber-main .title{
+.sideber-main .title{
   position: absolute;
   height: 40px;
   width: 228px;
@@ -404,15 +389,15 @@
 
 }
 
-.blog .sideber-main hr{
+.sideber-main hr{
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 68px;
   left: 146px;
   top: 245px;
 }
 
-.blog .sideber-main p{
+.sideber-main p{
   position: absolute;
   height: 125px;
   width: 288px;
@@ -428,11 +413,10 @@
 }
 
 .sideber-sub {
-  position: absolute;
+  position: relative;
   width: 360px;
   height: 140px;
-  right: 30px;
-  top: calc(148px + 577px + 27px);
+  margin-top: 27px;
   background: #FFFFFF;
 }
 .sideber-sub .content{
@@ -595,13 +579,13 @@
     width: 100vw;
     height: 3205px;
   }
-  .blog .main hr{
+  .main hr{
     height: 1px;
     width: 100vw;
     margin: 0px ;
   }
 
-  .blog .mainber hr {
+  .mainber hr {
     height: 1px;
     width: 709px;
     margin: 22px auto;
@@ -639,37 +623,37 @@
 .main {
   height: 100vh;
 }
-  .blog .mainber .date{
+  .mainber .date{
     height: 16px;
     width: 120px;
     margin: 11px auto 0px;
   }
   
-  .blog .mainber h1{
+  .mainber h1{
     height: 97px;
     width: 367px;
     font-size: 18px;
     line-height: 36px;
   }
 
-  .blog .mainber hr{
+  .mainber hr{
     width: 357px;
     margin: 8px auto 14px;
   }
   
-  .blog .picture {
+  .mainber img{
     width: 360px;
     height: 205px;
     margin: 0px auto 40px;
     background-size:contain;
   }
   
-  .blog .mainber p{
+  .mainber p{
     width: 330px;
     margin: 0px auto 25px;
   }
   
-  .blog .mainber h2{
+  .mainber h2{
     width: 307px;
     font-size: 20px;
     line-height: 32px;
@@ -745,20 +729,20 @@
 }
 
 @media screen and (max-width: 360px){
-.blog .mainber hr {
+.mainber hr {
   width: 340px;
 }
 
-.blog .picture {
+.mainber img{
   width: 345px;
   height: 198px;
 }
 
-.blog .mainber p {
+.mainber p {
   width: 315px;
 }
 
-.blog .mainber h2 {
+.mainber h2 {
   width: 295px;
 }
 
@@ -787,28 +771,28 @@
 }
 
 
-.blog .main hr {
+.main hr {
   width: 100vw;
 }
 
-.blog .mainber h1 {
+.mainber h1 {
   width: 300px;
 }
 
-.blog .mainber hr {
+.mainber hr {
   width: 308px;
 }
 
-.blog .picture {
+.mainber img{
   width: 310px;
   height: 177px;
 }
 
-.blog .mainber p {
+.mainber p {
   width: 290px;
 }
 
-.blog .mainber h2 {
+.mainber h2 {
   width: 265px;
 }
 
@@ -855,27 +839,27 @@
   height: calc(60px + 2033px + 67px + 110px);
 }
 
-.blog .mainber h1 {
+.mainber h1 {
   width: 260px;
   height: 90px;
   font-size: 16px;
   line-height: 33px;
 }
 
-.blog .mainber hr {
+.mainber hr {
   width: 266px;
 }
-.blog .picture {
+.mainber img{
   width: 270px;
   height: 155px;
 }
 
-.blog .mainber p {
+.mainber p {
   width: 240px;
   font-size: 14px;
 }
 
-.blog .mainber h2 {
+.mainber h2 {
   width: 226px;
 }
 
