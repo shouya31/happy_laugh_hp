@@ -34,11 +34,11 @@ get_template_part('single', 'header'); ?>
         <!-- シェア関連 -->
       <div class="share">この記事をシェアする</div>
       <ul class="sns-icon">
-        <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
-        <li><a href="#"><i class="fa fa-hatena fa-lg"></i></a></li>
-        <li class="line-list"><a href="#"><span class="icon-line"></span><i class="fas fa-circle"></i></a></li>
+        <li><a href="https://twitter.com/share?url=<? echo get_the_permalink(); ?>&text=<? echo get_the_title(); ?>" target="_blank" rel="nofollow noopener"><i class="fab fa-twitter fa-lg"></i></a></li>
+        <li><a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php the_permalink(); ?>&title=<?php echo get_the_title(); ?>" target="_blank" rel="nofollow noopener"><i class="fa fa-hatena fa-lg"></i></a></li>
+        <li class="line-list"><a href="https://social-plugins.line.me/lineit/share?url=<? echo get_the_permalink(); ?>" target="_blank" rel="nofollow noopener"><span class="icon-line"></span><i class="fas fa-circle"></i></a></li>
         <div class="facebook">
-          <li><a href="#"><div class="facebook-logo"></div></a></li>
+          <li><a href= "http://www.facebook.com/share.php?u=<? echo get_the_permalink(); ?>" target="_blank" rel="nofollow noopener"><div class="facebook-logo"></div></a></li>
         <div>
       </ul>
         <!-- シェア関連 -->

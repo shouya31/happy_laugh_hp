@@ -182,9 +182,16 @@ text-align: center;
   margin: 0 5px 5px 0;
   padding: 0;
   color: #fff;
-  pointer-events: none;
   }
 
+.sns-icon :hover {
+  color: #fff;
+  }
+
+.sns-icon :focus {
+  color: #fff;
+  }
+  
 
 .sns-icon i, .facebook{
   width: 40px;
