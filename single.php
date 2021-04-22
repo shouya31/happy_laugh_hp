@@ -74,7 +74,12 @@ get_template_part('single', 'header'); ?>
           <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
         <div class="sideber-sub">
-          <div class="content"></div>
+          <div class="content">
+						<form action="<?php echo home_url("/");?>" method="get" class="blog-search">
+							<input type="text" name= "s" value="<?php the_search_query();?>" placeholder="キーワードを入力">
+							<button type="submit" ><i class="fas fa-search fa-lg"></i></button>
+						</form>
+					</div>
         </div>
       </div>
       <!-- サイドバー -->
