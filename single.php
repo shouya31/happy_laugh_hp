@@ -21,6 +21,11 @@ get_template_part('single', 'header'); ?>
 			<div class="date"><?php the_time('Y.m.d'); ?><?php echo "&nbsp;";?>(更新日: <?php the_modified_date('Y/m/d') ?>)</div>
 			<h1><?php the_title();?></h1> 
 			<hr size=1px color="#000000">
+			<figure class="featured-image">
+				<?php if(has_post_thumbnail()):?>
+					<?php the_post_thumbnail('midium');?>
+				<?php endif ;?>
+      </figure>
       <?php the_content(); ?>
 			<?php endwhile; ?>
 			<?php endif ;?>
