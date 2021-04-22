@@ -59,7 +59,7 @@
       <ul class="header-list">
       <?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
       </ul>
-    </div>
+
 
 		<div id="hamburger">
         <span class="inner_line" id="line1"></span>

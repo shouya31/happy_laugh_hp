@@ -617,39 +617,120 @@ text-align: center;
 }
 
 @media screen and (max-width: 768px){
-.main{
-  height: 2863px;
+.hamburger_fixed {
+  margin: 42px auto auto !important;
+}
+
+.download-info {
+  width: 700px;
 }
 }
 
 @media screen and (max-width: 730px){
 
+.mainber h1 {
+  width: 610px;
+}
+.mainber p {
+  width: 590px;
+}
+
+.mainber h2 {
+  width: 600px;
+}
+
+.mainber img {
+  width: 620px;
+}
+
+.manager-info {
+  width: 624px;
+}
+
+.manager-image {
+  left: 484px;
+}
+
+.download-info {
+  width: 620px;
+}
+}
+
+@media screen and (max-width: 640px){
+
+  .mainber h1 {
+    width: 510px;
+    height: 130px;
+  }
+  .mainber p {
+    width: 490px;
+  }
+  
+  .mainber h2 {
+    width: 500px;
+  }
+  
+  .mainber img {
+    width: 520px;
+  }
+  
+  .manager-info {
+    width: 524px;
+  }
+  
+  .manager-image {
+    left: 484px;
+  }
+  
+  .download-info {
+    width: 520px;
+  }
+
+  .manager-name{
+    margin: 9px auto 0px 14px;
+  }
+
+  .manager-details{
+    margin: 0px auto 10px 14px;
+  }
+
+  .manager-text {
+    margin: 0px auto 18px 18px;
+    width: 360px;
+  }
+
+  .manager-image{
+    left: 383px;
+  }
+
+  .download-title {
+  width: 480px;
+  font-size: 20px;
+  }
+
+  .download-text {
+  width: 450px;
+  font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 540px){
-.wrapper {
-  height: calc(60px + 2033px + 67px);
-}
 
 #nav .nav-header-list{
   font-size: 15px;
 }
 
-.main {
-  height: 100vh;
+.mainber .date{
+  height: 16px;
+  margin: 11px auto 0px;
 }
-  .mainber .date{
-    height: 16px;
-    width: 120px;
-    margin: 11px auto 0px;
-  }
   
-  .mainber h1{
-    height: 97px;
-    width: 367px;
-    font-size: 18px;
-    line-height: 36px;
-  }
+.mainber h1{
+  height: 97px;
+  width: 340px;
+  font-size: 18px;
+  line-height: 36px;
+}
 
   .mainber hr{
     width: 357px;
@@ -781,10 +862,6 @@ text-align: center;
 }
 
 @media screen and (max-width: 320px) {
-.wrapper {
-  height: calc(60px + 2033px + 67px + 70px);
-}
-
 
 .main hr {
   width: 100vw;
@@ -850,9 +927,6 @@ text-align: center;
 }
 
 @media screen and (max-width: 280px){
-.wrapper {
-  height: calc(60px + 2033px + 67px + 110px);
-}
 
 .mainber h1 {
   width: 260px;
