@@ -26,6 +26,7 @@
 .header-list .menu{
   position: absolute;
   height: 28px;
+  width: auto;
   top: 28px;
   left: 307px;
   margin: 0px;
@@ -472,9 +473,12 @@ text-align: center;
 }
 
 /* サイドバー */
+/* @media screen and (max-width: 1200px){
+  .header{
+    height: 60px;
+  } */
 
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
 .header{
   height: 60px;
 }
