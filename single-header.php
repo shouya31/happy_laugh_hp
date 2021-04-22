@@ -47,13 +47,27 @@
 
 	<?php do_action('sydney_before_header'); //Hooked: sydney_header_clone() ?>
     <div class="header">
+
+		<nav id="nav">
+        <ul class="nav-header-list">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
+        </ul>
+    </nav>
+
+
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><div class="corporate-logo"></div></a>
       <ul class="header-list">
       <?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
       </ul>
-			
     </div>
 
+		<div id="hamburger">
+        <span class="inner_line" id="line1"></span>
+        <span class="inner_line" id="line2"></span>
+        <span class="inner_line" id="line3"></span>
+        <span class="inner_line" id="line4"></span>
+    </div>
+	</div>
 	<?php do_action('sydney_after_header'); ?>
 
 

@@ -13,6 +13,7 @@ get_template_part('single', 'header'); ?>
 		$fullwidth = '';
 	} ?>
   <div class="main">
+		<hr size=1px color="#DDDDDD" class="sp-ber">
       <!-- メインバー -->
     <div class="mainber">
     <?php do_action('sydney_before_content'); ?>
