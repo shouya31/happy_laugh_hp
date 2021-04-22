@@ -107,7 +107,7 @@
   margin: 22px auto ;
 }
 
-.mainber p, ul{
+.mainber p{
   width: 675px;
   margin: 0px auto 35px;
   font-family: Noto Sans JP;
@@ -428,9 +428,7 @@ text-align: center;
   margin-top: 27px;
   background: #FFFFFF;
 }
-
-
-/* .sideber-sub .content{
+.sideber-sub .content{
   position: absolute;
   width: 330px;
   height: 54px;
@@ -438,34 +436,28 @@ text-align: center;
   top: 43px;
   background: #E5E5E5;
 }
-
-.sideber-sub .content form{
-  width: 320px;
-  height: 50px;
-  margin: 2px;
-  display: flex;
-  padding: 0px;
-
-}
-
-.sideber-sub .content input{
-  width: 270px;
-}
-
-.sideber-sub .content button{
-  width: 50px;
-  margin: 1px 1px 1px 5px ;
-  padding: 0px;
-}
-
-.sideber-sub .fa-search{
-  margin: auto;
-  width: 20px;
-  height: 20px;
-} */
-
 /* サイドバー */
 
+/* フッター */
+.footer{
+  position: absolute;
+  width: 100vw;
+  height: 67px;
+  left: 0px;
+  bottom: 0px;
+  background: #1C1C1C;
+  border-radius: 0px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 17px;
+  box-sizing: border-box; 
+}
 
 @media screen and (max-width: 1024px){
 .header{
@@ -639,15 +631,11 @@ text-align: center;
 .mainber h1 {
   width: 610px;
 }
-.mainber p, ul {
+.mainber p {
   width: 590px;
 }
 
 .mainber h2 {
-  width: 600px;
-}
-
-.mainber h3 {
   width: 600px;
 }
 
@@ -674,15 +662,11 @@ text-align: center;
     width: 510px;
     height: 130px;
   }
-  .mainber p, ul {
+  .mainber p {
     width: 490px;
   }
   
   .mainber h2 {
-    width: 500px;
-  }
-
-  .mainber h3 {
     width: 500px;
   }
   
@@ -760,7 +744,7 @@ text-align: center;
     background-size:contain;
   }
   
-  .mainber p, ul{
+  .mainber p{
     width: 330px;
     margin: 0px auto 25px;
   }
@@ -768,13 +752,6 @@ text-align: center;
   .mainber h2{
     width: 307px;
     font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0.525px;
-  }
-
-  .mainber h3 {
-    width: 330px;
-    font-size: 17px;
     line-height: 32px;
     letter-spacing: 0.525px;
   }
@@ -857,16 +834,12 @@ text-align: center;
   height: 198px;
 }
 
-.mainber p, ul {
+.mainber p {
   width: 315px;
 }
 
 .mainber h2 {
   width: 295px;
-}
-
-.mainber h3 {
-  width: 315px;
 }
 
 .manager-info {
@@ -907,16 +880,12 @@ text-align: center;
   height: 177px;
 }
 
-.mainber p, ul {
+.mainber p {
   width: 290px;
 }
 
 .mainber h2 {
   width: 265px;
-}
-
-.mainber h3 {
-  width: 290px;
 }
 
 .manager-info {
@@ -974,17 +943,13 @@ text-align: center;
   height: 155px;
 }
 
-.mainber p ,ul {
+.mainber p {
   width: 240px;
   font-size: 14px;
 }
 
 .mainber h2 {
   width: 226px;
-}
-
-.mainber h3 {
-  width: 240px;
 }
 
 .sns-icon {
