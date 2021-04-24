@@ -66,7 +66,7 @@
         <span class="inner_line" id="line2"></span>
         <span class="inner_line" id="line3"></span>
         <span class="inner_line" id="line4"></span>
-    </div>
+        </div>
 	</div>
 	<?php do_action('sydney_after_header'); ?>
 

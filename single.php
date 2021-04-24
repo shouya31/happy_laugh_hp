@@ -30,7 +30,7 @@ get_template_part('single', 'header'); ?>
       <?php the_content(); ?>
 			<?php endwhile; ?>
 			<?php endif ;?>
-      <?php do_action('sydney_after_content'); ?>
+   <?php do_action('sydney_after_content'); ?>   
         <!-- シェア関連 -->
       <div class="share">この記事をシェアする</div>
       <ul class="sns-icon">
