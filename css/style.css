@@ -297,11 +297,11 @@ text-align: center;
   height: 333px; 
   background: #FCECF1;
   border-radius: 0px;
+  padding: 35px;
 }
 
 .download-title{
   margin: 0px auto 32px;
-  padding-top: 26px;
   width: 580px;
   height: 72px;
   font-family: Noto Sans JP;
@@ -609,6 +609,99 @@ text-align: center;
 
 @media screen and (max-width: 730px){
 
+.mainber h1 {
+  width: 610px;
+}
+.mainber p, ul {
+  width: 590px;
+}
+
+.mainber h2 {
+  width: 600px;
+}
+
+.mainber h3 {
+  width: 600px;
+}
+
+.mainber img {
+  width: 620px;
+}
+
+.manager-info {
+  width: 624px;
+}
+
+.manager-image {
+  left: 484px;
+}
+
+.download-info {
+  width: 620px;
+  padding: 35px 20px 35px;
+}
+}
+
+@media screen and (max-width: 640px){
+
+  .mainber h1 {
+    width: 510px;
+    height: 130px;
+  }
+  .mainber p, ul {
+    width: 490px;
+  }
+  
+  .mainber h2 {
+    width: 500px;
+  }
+
+  .mainber h3 {
+    width: 500px;
+  }
+  
+  .mainber img {
+    width: 520px;
+  }
+  
+  .manager-info {
+    width: 524px;
+  }
+  
+  .manager-image {
+    left: 484px;
+  }
+  
+  .download-info {
+    width: 520px;
+  }
+
+  .manager-name{
+    margin: 9px auto 0px 14px;
+  }
+
+  .manager-details{
+    margin: 0px auto 10px 14px;
+  }
+
+  .manager-text {
+    margin: 0px auto 18px 18px;
+    width: 360px;
+  }
+
+  .manager-image{
+    left: 383px;
+  }
+
+  .download-title {
+  width: 480px;
+  font-size: 20px;
+  }
+
+  .download-text {
+  width: 450px;
+  font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 540px){
@@ -699,21 +792,21 @@ text-align: center;
   .download-info{
     width: 360px;
     height: 208px; 
+    padding: 25px 20px 25px;
   }
   
   .download-title{
     margin: 0px auto 23px;
-    padding-top: 9px;
     width: 320px;
-    height: 38px;
+    height: 30px;
     font-size: 12px;
     line-height: 24px;
   }
   
   .download-text{
     margin: 0px auto 17px;
-    width: 315px;
-    height: 75px;
+    width: 320px;
+    height: 50px;
     font-size: 10px;
     line-height: 20px;
   }
@@ -761,6 +854,7 @@ text-align: center;
 
 .download-info {
   width: 345px;
+  padding: 25px 15px 25px;
 }
 
 }
@@ -821,6 +915,7 @@ text-align: center;
 
 .download-info {
   width: 310px;
+  padding: 15px;
 }
 
 .download-title {
@@ -830,6 +925,7 @@ text-align: center;
 
 .download-text {
   width: 280px;
+  height: 75px;
 }
 
 }
@@ -903,15 +999,16 @@ margin-left: 25px !important;
 
 .download-info {
   width: 270px;
+  padding: 10px;
 }
 
 .download-title {
-  width: 260px;
+  width: 250px;
   font-size: 10px;
 }
 
 .download-text {
-  width: 250px;
+  width: 240px;
   font-size: 9px;
 }
 
