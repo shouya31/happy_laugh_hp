@@ -21,7 +21,7 @@ function the_posts_navigation() {
 	?>
 	<nav class="navigation posts-navigation" role="navigation">
 		<h2 class="screen-reader-text"><?php _e( 'Posts navigation', 'sydney' ); ?></h2>
-		<div class="nav-links clearfix">
+		<div class="nav-links clearfix" style="margin-left:50px;">
 
 			<?php if ( get_next_posts_link() ) : ?>
 			<div class="nav-previous"><?php next_posts_link( __( 'Older posts', 'sydney' ) ); ?></div>
@@ -88,7 +88,7 @@ function sydney_posted_on() {
 	);
 
 	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
-	
+
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
 		comments_popup_link( __( 'Leave a comment', 'sydney' ), __( '1 Comment', 'sydney' ), __( '% Comments', 'sydney' ) );

@@ -5,11 +5,11 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	
+
 	<?php do_action('sydney_inside_top_post'); ?>
 
 	<header class="entry-header">
-		
+
 		<div class="meta-post">
 			<?php sydney_all_cats(); ?>
 		</div>
