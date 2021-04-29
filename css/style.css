@@ -449,6 +449,31 @@ text-align: center;
   background: #E5E5E5;
 }
 
+.sideber .youtube-btn{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 476px;
+  margin: auto;
+  width: 300px;
+  height: 56px;
+  background: #FF0000;
+  border: 2px solid #FF0000;
+  box-sizing: border-box;
+  box-shadow: 2px 6px 12px rgba(255, 93, 143, 0.16);
+  border-radius: 90px;
+  text-transform: none;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+
+
+}
+
 .sideber-sub .content form{
   width: 320px;
   height: 50px;
@@ -615,8 +640,9 @@ text-align: center;
     top: 30px;
     left: 0px;
     right: 0px;
+    height: 100%;
     margin: auto;
-    padding: 0px;
+    padding: 35px;
     list-style: none;
     font-family: Noto Sans JP;
     font-style: normal;
@@ -627,12 +653,34 @@ text-align: center;
   }
 
   .nav-header-list li{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   #nav .nav-header-list li a{
     text-decoration: none;
     color: #fff;
+  }
+
+  .hambuger-youtube-btn{
+    width: 500px;
+    height: 75px;
+    background: rgba(255, 0, 0, 0.6);
+    border-radius: 90px;
+    border:none;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: none;
+    color: #FFFFFF;
+    position: absolute;
+    top: 536px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    pointer-events: none;
   }
 
   .line_1,.line_2,.line_3,.line_4{
@@ -864,6 +912,24 @@ text-align: center;
 
   #nav .nav-header-list{
     font-size: 15px;
+  }
+
+  #nav .nav-header-list li {
+    margin-bottom: 32px;
+  }
+
+  #nav .nav-header-list .menu{
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px;
+  }
+
+  .hambuger-youtube-btn{
+    font-size: 15px;
+    line-height: 24px;
+    width: 265px;
+    height: 70px;
+    top: 445px;
   }
 
   .mainber .date{

@@ -52,6 +52,7 @@
         <ul class="nav-header-list">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
         </ul>
+        <a href="https://www.youtube.com/channel/UC-7yeBSVfYVxh5o5ZLV9P2Q"><button class="hambuger-youtube-btn">ハピラフインスタカレッジのYoutubeを見る</button></a>
     </nav>
 
 
