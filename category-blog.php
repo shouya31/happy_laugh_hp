@@ -78,7 +78,9 @@ get_template_part('single', 'header'); ?>
           <div class="circle"></div>
           <div class="title">ハピラフインスタガレッジ</div>
           <hr size=1px color= #374CA5>
-          <p>インスタマーケティング支援のハピラフ代表トミが、インスタの伸ばし方やインスタに関するお役立ち情報をお届けします。初心者から上級者まで全ての人に役立つ内容となっています。<br>インスタの実績としては、累計フォロワー100万人を獲得しました。全て立ち上げから伸ばしています。</p>        </div>
+          <p>インスタマーケティング支援のハピラフ代表トミが、インスタの伸ばし方やインスタに関するお役立ち情報をお届けします。初心者から上級者まで全ての人に役立つ内容となっています。<br>インスタの実績としては、累計フォロワー100万人を獲得しました。全て立ち上げから伸ばしています。</p>        
+          <a href="https://www.youtube.com/channel/UC-7yeBSVfYVxh5o5ZLV9P2Q"><button class="youtube-btn">Youtubeを見る</button></a>
+        </div>
         <div class="sideber-sub">
           <div class="content">
 						<form action="<?php echo home_url("/");?>" method="get" class="blog-search">
